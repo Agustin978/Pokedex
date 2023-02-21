@@ -4,9 +4,19 @@
     padding: 0;
 }
 
-body
+.article_pokemons
 {
-    display: flex;
-    flex-direction: row;
-    min-height: 100vh;
+    justify-content: center;
+}
+
+.cards_pokemon
+{
+    transition: 1s ease;
+    -webkit-transition: 1s ease;
+}
+
+.cards_pokemon:hover
+{
+    transform : scale(1.1);
+    -webkit-transform : scale(1.1);
 }
