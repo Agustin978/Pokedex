@@ -20,3 +20,24 @@
     transform : scale(1.1);
     -webkit-transform : scale(1.1);
 }
+
+.bg-violeta
+{
+    background-color: rgb(118, 83, 150);
+}
+
+.bg-rosa
+{
+    background-color: rgb(247, 116, 181);
+}
+
+.bg-claro
+{
+    background-color: bisque;
+}
+
+.div-flex
+{
+    display: flex;
+    flex-direction: row;
+}
