@@ -21,6 +21,18 @@
     -webkit-transform : scale(1.1);
 }
 
+.datos
+{
+    transition: 1s ease;
+    -webkit-transition: 1s ease;
+}
+
+.datos:hover
+{
+    transform : scale(1.1);
+    -webkit-transform : scale(1.1);
+}
+
 .bg-violeta
 {
     background-color: rgb(118, 83, 150);
